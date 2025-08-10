@@ -36,7 +36,7 @@ class QuickSortTest {
         return i
     }
 
-    // swap 함수 확장
+    // chapter4.swap 함수 확장
     private fun IntArray.swap(i: Int, j: Int) {
         println("\t[BEFORE] ${this.joinToString(prefix = "[", postfix = "]")}")
         val temp = this[i]
