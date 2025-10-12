@@ -1,7 +1,8 @@
-import org.junit.jupiter.api.Test
-import java.util.Hashtable
+package chapter3
 
-class QuickSortTest {
+import org.junit.jupiter.api.Test
+
+internal class QuickSortTest {
     @Test
     fun test() {
         val arr = intArrayOf(3, 1, 5, 2, 4)
